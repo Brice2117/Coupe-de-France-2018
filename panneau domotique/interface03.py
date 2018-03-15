@@ -49,9 +49,6 @@ if len(connected) > 0:						# on test si plusieurs ports ont été trouvée, si 
 	ser.flushInput()						# éfface les residus de données sur le port avant qu'on ne commence 
 else:
 	print("pas de port serie")
-	print("pas de port serie")
-	print("pas de port serie")
-	print("pas de port serie")
 	pygame.quit()
 	exit()
 
